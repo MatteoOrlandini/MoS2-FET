@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  19 JUN 2020 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  19 JUN 2020 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,14 +214,34 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
+(c:/Program Files/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count123
+\@cmidlb=\count124
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count125
+\@lastruleclass=\count126
+\@thisrulewidth=\dimen139
+)
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count123
-\csq@gtype=\count124
-\csq@glevel=\count125
-\csq@qlevel=\count126
-\csq@maxlvl=\count127
-\csq@tshold=\count128
+\csq@reset=\count127
+\csq@gtype=\count128
+\csq@glevel=\count129
+\csq@qlevel=\count130
+\csq@maxlvl=\count131
+\csq@tshold=\count132
 \csq@ltx@everypar=\toks23
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -272,7 +292,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 )))
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count129
+\lrq@indent=\count133
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -284,47 +304,47 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count130
-\c@listtotal=\count131
-\c@listcount=\count132
-\c@liststart=\count133
-\c@liststop=\count134
-\c@citecount=\count135
-\c@citetotal=\count136
-\c@multicitecount=\count137
-\c@multicitetotal=\count138
-\c@instcount=\count139
-\c@maxnames=\count140
-\c@minnames=\count141
-\c@maxitems=\count142
-\c@minitems=\count143
-\c@citecounter=\count144
-\c@maxcitecounter=\count145
-\c@savedcitecounter=\count146
-\c@uniquelist=\count147
-\c@uniquename=\count148
-\c@refsection=\count149
-\c@refsegment=\count150
-\c@maxextratitle=\count151
-\c@maxextratitleyear=\count152
-\c@maxextraname=\count153
-\c@maxextradate=\count154
-\c@maxextraalpha=\count155
-\c@abbrvpenalty=\count156
-\c@highnamepenalty=\count157
-\c@lownamepenalty=\count158
-\c@maxparens=\count159
-\c@parenlevel=\count160
-\blx@tempcnta=\count161
-\blx@tempcntb=\count162
-\blx@tempcntc=\count163
-\blx@maxsection=\count164
-\blx@maxsegment@0=\count165
-\blx@notetype=\count166
-\blx@parenlevel@text=\count167
-\blx@parenlevel@foot=\count168
-\blx@sectionciteorder@0=\count169
-\blx@entrysetcounter=\count170
+\c@tabx@nest=\count134
+\c@listtotal=\count135
+\c@listcount=\count136
+\c@liststart=\count137
+\c@liststop=\count138
+\c@citecount=\count139
+\c@citetotal=\count140
+\c@multicitecount=\count141
+\c@multicitetotal=\count142
+\c@instcount=\count143
+\c@maxnames=\count144
+\c@minnames=\count145
+\c@maxitems=\count146
+\c@minitems=\count147
+\c@citecounter=\count148
+\c@maxcitecounter=\count149
+\c@savedcitecounter=\count150
+\c@uniquelist=\count151
+\c@uniquename=\count152
+\c@refsection=\count153
+\c@refsegment=\count154
+\c@maxextratitle=\count155
+\c@maxextratitleyear=\count156
+\c@maxextraname=\count157
+\c@maxextradate=\count158
+\c@maxextraalpha=\count159
+\c@abbrvpenalty=\count160
+\c@highnamepenalty=\count161
+\c@lownamepenalty=\count162
+\c@maxparens=\count163
+\c@parenlevel=\count164
+\blx@tempcnta=\count165
+\blx@tempcntb=\count166
+\blx@tempcntc=\count167
+\blx@maxsection=\count168
+\blx@maxsegment@0=\count169
+\blx@notetype=\count170
+\blx@parenlevel@text=\count171
+\blx@parenlevel@foot=\count172
+\blx@sectionciteorder@0=\count173
+\blx@entrysetcounter=\count174
 \labelnumberwidth=\skip51
 \labelalphawidth=\skip52
 \biblabelsep=\skip53
@@ -335,9 +355,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip58
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count171
-\c@maxcomprange=\count172
-\c@mincompwidth=\count173
+\c@mincomprange=\count175
+\c@maxcomprange=\count176
+\c@mincompwidth=\count177
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -348,74 +368,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count174
-\c@savedafterword=\count175
-\c@annotator=\count176
-\c@savedannotator=\count177
-\c@author=\count178
-\c@savedauthor=\count179
-\c@bookauthor=\count180
-\c@savedbookauthor=\count181
-\c@commentator=\count182
-\c@savedcommentator=\count183
-\c@editor=\count184
-\c@savededitor=\count185
-\c@editora=\count186
-\c@savededitora=\count187
-\c@editorb=\count188
-\c@savededitorb=\count189
-\c@editorc=\count190
-\c@savededitorc=\count191
-\c@foreword=\count192
-\c@savedforeword=\count193
-\c@holder=\count194
-\c@savedholder=\count195
-\c@introduction=\count196
-\c@savedintroduction=\count197
-\c@namea=\count198
-\c@savednamea=\count199
-\c@nameb=\count266
-\c@savednameb=\count267
-\c@namec=\count268
-\c@savednamec=\count269
-\c@translator=\count270
-\c@savedtranslator=\count271
-\c@shortauthor=\count272
-\c@savedshortauthor=\count273
-\c@shorteditor=\count274
-\c@savedshorteditor=\count275
-\c@labelname=\count276
-\c@savedlabelname=\count277
-\c@institution=\count278
-\c@savedinstitution=\count279
-\c@lista=\count280
-\c@savedlista=\count281
-\c@listb=\count282
-\c@savedlistb=\count283
-\c@listc=\count284
-\c@savedlistc=\count285
-\c@listd=\count286
-\c@savedlistd=\count287
-\c@liste=\count288
-\c@savedliste=\count289
-\c@listf=\count290
-\c@savedlistf=\count291
-\c@location=\count292
-\c@savedlocation=\count293
-\c@organization=\count294
-\c@savedorganization=\count295
-\c@origlocation=\count296
-\c@savedoriglocation=\count297
-\c@origpublisher=\count298
-\c@savedorigpublisher=\count299
-\c@publisher=\count300
-\c@savedpublisher=\count301
-\c@language=\count302
-\c@savedlanguage=\count303
-\c@origlanguage=\count304
-\c@savedoriglanguage=\count305
-\c@pageref=\count306
-\c@savedpageref=\count307
+\c@afterword=\count178
+\c@savedafterword=\count179
+\c@annotator=\count180
+\c@savedannotator=\count181
+\c@author=\count182
+\c@savedauthor=\count183
+\c@bookauthor=\count184
+\c@savedbookauthor=\count185
+\c@commentator=\count186
+\c@savedcommentator=\count187
+\c@editor=\count188
+\c@savededitor=\count189
+\c@editora=\count190
+\c@savededitora=\count191
+\c@editorb=\count192
+\c@savededitorb=\count193
+\c@editorc=\count194
+\c@savededitorc=\count195
+\c@foreword=\count196
+\c@savedforeword=\count197
+\c@holder=\count198
+\c@savedholder=\count199
+\c@introduction=\count266
+\c@savedintroduction=\count267
+\c@namea=\count268
+\c@savednamea=\count269
+\c@nameb=\count270
+\c@savednameb=\count271
+\c@namec=\count272
+\c@savednamec=\count273
+\c@translator=\count274
+\c@savedtranslator=\count275
+\c@shortauthor=\count276
+\c@savedshortauthor=\count277
+\c@shorteditor=\count278
+\c@savedshorteditor=\count279
+\c@labelname=\count280
+\c@savedlabelname=\count281
+\c@institution=\count282
+\c@savedinstitution=\count283
+\c@lista=\count284
+\c@savedlista=\count285
+\c@listb=\count286
+\c@savedlistb=\count287
+\c@listc=\count288
+\c@savedlistc=\count289
+\c@listd=\count290
+\c@savedlistd=\count291
+\c@liste=\count292
+\c@savedliste=\count293
+\c@listf=\count294
+\c@savedlistf=\count295
+\c@location=\count296
+\c@savedlocation=\count297
+\c@organization=\count298
+\c@savedorganization=\count299
+\c@origlocation=\count300
+\c@savedoriglocation=\count301
+\c@origpublisher=\count302
+\c@savedorigpublisher=\count303
+\c@publisher=\count304
+\c@savedpublisher=\count305
+\c@language=\count306
+\c@savedlanguage=\count307
+\c@origlanguage=\count308
+\c@savedoriglanguage=\count309
+\c@pageref=\count310
+\c@savedpageref=\count311
 \shorthandwidth=\skip59
 \shortjournalwidth=\skip60
 \shortserieswidth=\skip61
@@ -441,13 +461,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count308
-\c@textcitetotal=\count309
-\c@textcitemaxnames=\count310
-\c@biburlnumpenalty=\count311
-\c@biburlucpenalty=\count312
-\c@biburllcpenalty=\count313
-\c@smartand=\count314
+\c@textcitecount=\count312
+\c@textcitetotal=\count313
+\c@textcitemaxnames=\count314
+\c@biburlnumpenalty=\count315
+\c@biburlucpenalty=\count316
+\c@biburllcpenalty=\count317
+\c@smartand=\count318
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -459,8 +479,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count315
-\c@bbx:relatedtotal=\count316
+\c@bbx:relatedcount=\count319
+\c@bbx:relatedtotal=\count320
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -486,7 +506,7 @@ File: biblatex.cfg
 ))
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count317
+\c@float@type=\count321
 \float@exts=\toks24
 \float@box=\box31
 \@float@everytoks=\toks25
@@ -534,16 +554,16 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (c:/Program Files/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen127
-\Hy@linkcounter=\count318
-\Hy@pagecounter=\count319
+\@linkdim=\dimen140
+\Hy@linkcounter=\count322
+\Hy@pagecounter=\count323
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count320
+\Hy@SavedSpaceFactor=\count324
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -555,12 +575,12 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count321
+\c@Hy@tempcnt=\count325
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count322
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
+\XeTeXLinkMargin=\dimen141
+\Fld@menulength=\count326
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -570,16 +590,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count323
-\c@Item=\count324
-\c@Hfootnote=\count325
+\Hy@abspage=\count327
+\c@Item=\count328
+\c@Hfootnote=\count329
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count326
-\c@bookmark@seq@number=\count327
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -590,29 +610,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 47.
+(hyperref)                setting the option has no effect on input line 48.
 
-Package hyperref Info: Option `unicode' set `false' on input line 47.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 47.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 47.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 47.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
-
+Package hyperref Info: Option `unicode' set `false' on input line 48.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 48.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 48.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 48.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 47.
+(hyperref)                removing `math shift' on input line 48.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 47.
+(hyperref)                removing `subscript' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
 
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 47.
+(hyperref)                setting the option has no effect on input line 48.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 47.
+Package hyperref Info: Option `colorlinks' set `false' on input line 48.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'english'...
@@ -629,22 +649,22 @@ File: italian.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Info: Redefining \it@ocap on input line 54.
-LaTeX Info: Redefining \it@ccap on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Info: Redefining \it@ocap on input line 55.
+LaTeX Info: Redefining \it@ccap on input line 55.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -654,16 +674,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen131
+\scratchcounter=\count332
+\scratchdimen=\dimen144
 \scratchbox=\box33
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\nofMPsegments=\count333
+\nofMParguments=\count334
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen132
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPscratchCnt=\count335
+\MPscratchDim=\dimen145
+\MPnumerator=\count336
+\makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks27
 )
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -684,7 +704,7 @@ g
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count334
+\c@lstlisting=\count338
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -693,10 +713,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Report.bbl' found.
  (./Report.bbl)
-Package biblatex Info: Reference section=0 on input line 54.
-Package biblatex Info: Reference segment=0 on input line 54.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -705,26 +725,26 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (./Report.out) (./Report.out)
 \@outlinefile=\write4
 \openout4 = `Report.out'.
 
-<Immagini/univpmlogo.png, id=8, 602.25pt x 602.25pt>
+<Immagini/univpmlogo.png, id=20, 602.25pt x 602.25pt>
 File: Immagini/univpmlogo.png Graphic file (type png)
 <use Immagini/univpmlogo.png>
-Package pdftex.def Info: Immagini/univpmlogo.png  used on input line 59.
+Package pdftex.def Info: Immagini/univpmlogo.png  used on input line 60.
 (pdftex.def)             Requested size: 77.99881pt x 77.99199pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 (c:/Program Files/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -735,7 +755,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `Report.toc'.
 
- [1]
+ [1] [1]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Overfull \hbox (21.08762pt too wide) in paragraph at lines 105--106
+\T1/cmr/m/n/12 these ul-tra-thin semi-con-duct-ing crys-tals. MoS$[]$ flakes ex
+-hibit dis-tinc-tive thickness-
+ []
+
+<Immagini/monolayer_model.png, id=68, 249.93375pt x 344.03531pt>
+File: Immagini/monolayer_model.png Graphic file (type png)
+<use Immagini/monolayer_model.png>
+Package pdftex.def Info: Immagini/monolayer_model.png  used on input line 118.
+(pdftex.def)             Requested size: 195.0pt x 268.43045pt.
+[2 <./Immagini/monolayer_model.png>]
+<Immagini/monolayer_model_comsol.png, id=81, 341.02406pt x 139.27031pt>
+File: Immagini/monolayer_model_comsol.png Graphic file (type png)
+<use Immagini/monolayer_model_comsol.png>
+Package pdftex.def Info: Immagini/monolayer_model_comsol.png  used on input lin
+e 131.
+(pdftex.def)             Requested size: 272.99881pt x 111.49713pt.
+ [3 <./Immagini/monolayer_model_comsol.png>]
 Package epstopdf Info: Source file: <Grafici/monolayer_Id(Vd).eps>
 (epstopdf)                    date: 2020-06-19 14:23:20
 (epstopdf)                    size: 105373 bytes
@@ -745,15 +796,16 @@ pdf>
 (epstopdf)                    size: 63531 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/monolayer_Id(Vd)-e
 ps-converted-to.pdf Grafici/monolayer_Id(Vd).eps>
-(epstopdf)             \includegraphics on input line 89.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/monolayer_Id(Vd)-eps-converted-to.pdf, id=32, 376.40625pt x 292.09125p
+<Grafici/monolayer_Id(Vd)-eps-converted-to.pdf, id=94, 376.40625pt x 292.09125p
 t>
 File: Grafici/monolayer_Id(Vd)-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/monolayer_Id(Vd)-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/monolayer_Id(Vd)-eps-converted-to.pdf  used on
- input line 89.
-(pdftex.def)             Requested size: 390.0pt x 302.66238pt.
+ input line 176.
+(pdftex.def)             Requested size: 312.00119pt x 242.12813pt.
+ [4]
 Package epstopdf Info: Source file: <Grafici/monolayer_Id(Vg).eps>
 (epstopdf)                    date: 2020-06-19 14:23:22
 (epstopdf)                    size: 103658 bytes
@@ -763,16 +815,15 @@ pdf>
 (epstopdf)                    size: 63308 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/monolayer_Id(Vg)-e
 ps-converted-to.pdf Grafici/monolayer_Id(Vg).eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/monolayer_Id(Vg)-eps-converted-to.pdf, id=33, 368.37625pt x 292.09125p
-t>
+<Grafici/monolayer_Id(Vg)-eps-converted-to.pdf, id=103, 368.37625pt x 292.09125
+pt>
 File: Grafici/monolayer_Id(Vg)-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/monolayer_Id(Vg)-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/monolayer_Id(Vg)-eps-converted-to.pdf  used on
- input line 96.
-(pdftex.def)             Requested size: 390.0pt x 309.23639pt.
- [1 <./Grafici/monolayer_Id(Vd)-eps-converted-to.pdf>]
+ input line 183.
+(pdftex.def)             Requested size: 312.00119pt x 247.38733pt.
 Package epstopdf Info: Source file: <Grafici/4layer_Id(Vd).eps>
 (epstopdf)                    date: 2020-06-19 14:23:23
 (epstopdf)                    size: 118344 bytes
@@ -782,15 +833,16 @@ Package epstopdf Info: Source file: <Grafici/4layer_Id(Vd).eps>
 (epstopdf)                    size: 62269 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/4layer_Id(Vd)-eps-
 converted-to.pdf Grafici/4layer_Id(Vd).eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/4layer_Id(Vd)-eps-converted-to.pdf, id=47, 824.07875pt x 447.6725pt>
+<Grafici/4layer_Id(Vd)-eps-converted-to.pdf, id=104, 824.07875pt x 447.6725pt>
 File: Grafici/4layer_Id(Vd)-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/4layer_Id(Vd)-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/4layer_Id(Vd)-eps-converted-to.pdf  used on in
-put line 103.
+put line 190.
 (pdftex.def)             Requested size: 390.0pt x 211.86108pt.
- [2 <./Grafici/monolayer_Id(Vg)-eps-converted-to.pdf>]
+ [5 <./Grafici/monolayer_Id(Vd)-eps-converted-to.pdf> <./Grafici/monolayer_Id(V
+g)-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Grafici/4layer_Id(Vg).eps>
 (epstopdf)                    date: 2020-06-19 14:23:27
 (epstopdf)                    size: 116220 bytes
@@ -800,15 +852,60 @@ Package epstopdf Info: Source file: <Grafici/4layer_Id(Vg).eps>
 (epstopdf)                    size: 61732 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/4layer_Id(Vg)-eps-
 converted-to.pdf Grafici/4layer_Id(Vg).eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/4layer_Id(Vg)-eps-converted-to.pdf, id=58, 368.37625pt x 292.09125pt>
+<Grafici/4layer_Id(Vg)-eps-converted-to.pdf, id=120, 368.37625pt x 292.09125pt>
+
 File: Grafici/4layer_Id(Vg)-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/4layer_Id(Vg)-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/4layer_Id(Vg)-eps-converted-to.pdf  used on in
-put line 110.
-(pdftex.def)             Requested size: 390.0pt x 309.23639pt.
- [3 <./Grafici/4layer_Id(Vd)-eps-converted-to.pdf>]
+put line 197.
+(pdftex.def)             Requested size: 312.00119pt x 247.38733pt.
+ [6 <./Grafici/4layer_Id(Vd)-eps-converted-to.pdf> <./Grafici/4layer_Id(Vg)-eps
+-converted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+<Immagini/HfO2_fabrication.png, id=137, 379.4175pt x 195.73125pt>
+File: Immagini/HfO2_fabrication.png Graphic file (type png)
+<use Immagini/HfO2_fabrication.png>
+Package pdftex.def Info: Immagini/HfO2_fabrication.png  used on input line 216.
+
+(pdftex.def)             Requested size: 390.0pt x 201.19327pt.
+<Immagini/HfO2_model.png, id=140, 444.91219pt x 216.81pt>
+File: Immagini/HfO2_model.png Graphic file (type png)
+<use Immagini/HfO2_model.png>
+Package pdftex.def Info: Immagini/HfO2_model.png  used on input line 223.
+(pdftex.def)             Requested size: 390.0pt x 190.05234pt.
+[7 <./Immagini/HfO2_fabrication.png>]
+<Immagini/HfO2_model_comsol.png, id=150, 300.3722pt x 82.05656pt>
+File: Immagini/HfO2_model_comsol.png Graphic file (type png)
+<use Immagini/HfO2_model_comsol.png>
+Package pdftex.def Info: Immagini/HfO2_model_comsol.png  used on input line 234
+.
+(pdftex.def)             Requested size: 312.00119pt x 85.24039pt.
+ [8 <./Immagini/HfO2_model.png> <./Immagini/HfO2_model_comsol.png>]
 Package epstopdf Info: Source file: <Grafici/Id(Vd)_HfO2_MoS2.eps>
 (epstopdf)                    date: 2020-06-19 14:23:29
 (epstopdf)                    size: 54486 bytes
@@ -818,16 +915,16 @@ pdf>
 (epstopdf)                    size: 28118 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/Id(Vd)_HfO2_MoS2-e
 ps-converted-to.pdf Grafici/Id(Vd)_HfO2_MoS2.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf, id=69, 368.37625pt x 292.09125p
-t>
+<Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf, id=162, 368.37625pt x 292.09125
+pt>
 File: Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf  used on
- input line 117.
-(pdftex.def)             Requested size: 390.0pt x 309.23639pt.
- [4 <./Grafici/4layer_Id(Vg)-eps-converted-to.pdf>]
+ input line 281.
+(pdftex.def)             Requested size: 292.5pt x 231.92618pt.
+ [9]
 Package epstopdf Info: Source file: <Grafici/Id(Vbg)_HfO2_MoS2.eps>
 (epstopdf)                    date: 2020-06-19 14:23:30
 (epstopdf)                    size: 40980 bytes
@@ -837,16 +934,17 @@ Package epstopdf Info: Source file: <Grafici/Id(Vbg)_HfO2_MoS2.eps>
 (epstopdf)                    size: 17319 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/Id(Vbg)_HfO2_MoS2-
 eps-converted-to.pdf Grafici/Id(Vbg)_HfO2_MoS2.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 288.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf, id=80, 368.37625pt x 292.09125
-pt>
+<Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf, id=169, 368.37625pt x 292.0912
+5pt>
 File: Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf  used o
-n input line 124.
-(pdftex.def)             Requested size: 390.0pt x 309.23639pt.
- [5 <./Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf>]
+n input line 288.
+(pdftex.def)             Requested size: 292.5pt x 231.92618pt.
+ [10 <./Grafici/Id(Vd)_HfO2_MoS2-eps-converted-to.pdf> <./Grafici/Id(Vbg)_HfO2_
+MoS2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps>
 
 (epstopdf)                    date: 2020-06-19 14:23:32
@@ -857,17 +955,17 @@ converted-to.pdf>
 (epstopdf)                    size: 48083 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/Id(Vtg)_HfO2_MoS2_
 varying_Vds-eps-converted-to.pdf Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf, id=92, 372.39125pt
- x 294.09875pt>
+<Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf, id=187, 372.39125p
+t x 294.09875pt>
 File: Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to
-.pdf  used on input line 131.
+.pdf  used on input line 301.
 (pdftex.def)             Requested size: 390.0pt x 308.01399pt.
- [6 <./Grafici/Id(Vbg)_HfO2_MoS2-eps-converted-to.pdf>]
+ [11]
 Package epstopdf Info: Source file: <Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg.eps>
 
 (epstopdf)                    date: 2020-06-19 14:23:33
@@ -878,17 +976,17 @@ converted-to.pdf>
 (epstopdf)                    size: 20298 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/Id(Vtg)_HfO2_MoS2_
 varying_Vbg-eps-converted-to.pdf Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf, id=103, 366.36874p
+<Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf, id=197, 366.36874p
 t x 292.09125pt>
 File: Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to
-.pdf  used on input line 138.
+.pdf  used on input line 310.
 (pdftex.def)             Requested size: 390.0pt x 310.94785pt.
- [7 <./Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf>]
+ [12 <./Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg.eps>
 
 (epstopdf)                    date: 2020-06-19 14:23:34
@@ -899,69 +997,207 @@ converted-to.pdf>
 (epstopdf)                    size: 51582 bytes
 (epstopdf)             Command: <repstopdf --outfile=Grafici/Id(Vds)_HfO2_MoS2_
 varying_Vtg-eps-converted-to.pdf Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
-<Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf, id=114, 377.41pt x
+<Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf, id=209, 377.41pt x
  292.09125pt>
 File: Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf>
 Package pdftex.def Info: Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to
-.pdf  used on input line 145.
+.pdf  used on input line 319.
 (pdftex.def)             Requested size: 390.0pt x 301.83339pt.
- [8 <./Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf>] [9 <./Grafi
-ci/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 156.
+ [13 <./Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg-eps-converted-to.pdf>] [14 <./Gra
+fici/Id(Vds)_HfO2_MoS2_varying_Vtg-eps-converted-to.pdf>]
 
- (c:/Program Files/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 325.
+
+<Immagini/HfZrO2_permittivity.png, id=229, 677.53125pt x 478.78876pt>
+File: Immagini/HfZrO2_permittivity.png Graphic file (type png)
+<use Immagini/HfZrO2_permittivity.png>
+Package pdftex.def Info: Immagini/HfZrO2_permittivity.png  used on input line 3
+30.
+(pdftex.def)             Requested size: 234.00238pt x 165.36493pt.
+Package epstopdf Info: Source file: <Grafici/permittivity_HfZrO2.eps>
+(epstopdf)                    date: 2020-06-19 18:00:28
+(epstopdf)                    size: 119963 bytes
+(epstopdf)             Output file: <Grafici/permittivity_HfZrO2-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-06-19 18:00:38
+(epstopdf)                    size: 35366 bytes
+(epstopdf)             Command: <repstopdf --outfile=Grafici/permittivity_HfZrO
+2-eps-converted-to.pdf Grafici/permittivity_HfZrO2.eps>
+(epstopdf)             \includegraphics on input line 339.
+Package epstopdf Info: Output file is already uptodate.
+<Grafici/permittivity_HfZrO2-eps-converted-to.pdf, id=235, 346.29375pt x 244.91
+5pt>
+File: Grafici/permittivity_HfZrO2-eps-converted-to.pdf Graphic file (type pdf)
+<use Grafici/permittivity_HfZrO2-eps-converted-to.pdf>
+Package pdftex.def Info: Grafici/permittivity_HfZrO2-eps-converted-to.pdf  used
+ on input line 339.
+(pdftex.def)             Requested size: 272.99881pt x 193.08084pt.
+Package epstopdf Info: Source file: <Grafici/HfZrO2_Id(Vd)_varying_Vbg.eps>
+(epstopdf)                    date: 2020-06-19 16:08:59
+(epstopdf)                    size: 53210 bytes
+(epstopdf)             Output file: <Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-19 16:10:52
+(epstopdf)                    size: 23366 bytes
+(epstopdf)             Command: <repstopdf --outfile=Grafici/HfZrO2_Id(Vd)_vary
+ing_Vbg-eps-converted-to.pdf Grafici/HfZrO2_Id(Vd)_varying_Vbg.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+<Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-converted-to.pdf, id=237, 362.35374pt x 
+290.08376pt>
+File: Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-converted-to.pdf>
+Package pdftex.def Info: Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-converted-to.pdf
+  used on input line 347.
+(pdftex.def)             Requested size: 312.00119pt x 249.777pt.
+[15 <./Immagini/HfZrO2_permittivity.png> <./Grafici/permittivity_HfZrO2-eps-con
+verted-to.pdf>]
+Package epstopdf Info: Source file: <Grafici/HfZrO2_Id(Vd)_varying_Vtg.eps>
+(epstopdf)                    date: 2020-06-19 16:30:20
+(epstopdf)                    size: 54995 bytes
+(epstopdf)             Output file: <Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-06-19 16:31:48
+(epstopdf)                    size: 28944 bytes
+(epstopdf)             Command: <repstopdf --outfile=Grafici/HfZrO2_Id(Vd)_vary
+ing_Vtg-eps-converted-to.pdf Grafici/HfZrO2_Id(Vd)_varying_Vtg.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+<Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-converted-to.pdf, id=248, 362.35374pt x 
+290.08376pt>
+File: Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-converted-to.pdf>
+Package pdftex.def Info: Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-converted-to.pdf
+  used on input line 356.
+(pdftex.def)             Requested size: 312.00119pt x 249.777pt.
+ [16 <./Grafici/HfZrO2_Id(Vd)_varying_Vbg-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Grafici/HfZrO2_Id(Vtg).eps>
+(epstopdf)                    date: 2020-06-19 22:25:09
+(epstopdf)                    size: 40178 bytes
+(epstopdf)             Output file: <Grafici/HfZrO2_Id(Vtg)-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-06-19 22:25:41
+(epstopdf)                    size: 17088 bytes
+(epstopdf)             Command: <repstopdf --outfile=Grafici/HfZrO2_Id(Vtg)-eps
+-converted-to.pdf Grafici/HfZrO2_Id(Vtg).eps>
+(epstopdf)             \includegraphics on input line 365.
+Package epstopdf Info: Output file is already uptodate.
+<Grafici/HfZrO2_Id(Vtg)-eps-converted-to.pdf, id=261, 366.36874pt x 292.09125pt
+>
+File: Grafici/HfZrO2_Id(Vtg)-eps-converted-to.pdf Graphic file (type pdf)
+<use Grafici/HfZrO2_Id(Vtg)-eps-converted-to.pdf>
+Package pdftex.def Info: Grafici/HfZrO2_Id(Vtg)-eps-converted-to.pdf  used on i
+nput line 365.
+(pdftex.def)             Requested size: 312.00119pt x 248.76007pt.
+[17 <./Grafici/HfZrO2_Id(Vd)_varying_Vtg-eps-converted-to.pdf> <./Grafici/HfZrO
+2_Id(Vtg)-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 377.
+
+
+(c:/Program Files/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (10.89566pt too wide) in paragraph at lines 157--157
+Overfull \hbox (10.89566pt too wide) in paragraph at lines 378--378
 \T1/cmr/m/n/12 Lin-coln J. Lauhon. ^^P  In-ves-ti-ga-tion of Band-Offsets at Mo
 no-layer^^UMultilayer
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: A02D95553E30B97FF125B1AA17CF9044;47.
+(rerunfilecheck)             Checksum: 0A4C0D52F740709639C768E4D54C888D;225.
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16471 strings out of 492623
- 274490 string characters out of 6126681
- 739302 words of memory out of 5000000
- 20144 multiletter control sequences out of 15000+600000
- 22032 words of font info for 63 fonts, out of 8000000 for 9000
+ 16627 strings out of 492623
+ 278111 string characters out of 6126681
+ 746513 words of memory out of 5000000
+ 20262 multiletter control sequences out of 15000+600000
+ 22440 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,5n,45p,798b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,62p,1170b,1710s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 1.enc}<c:/Program Files/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi8.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr17.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1200.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type
-1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/
-type1/public/cm-super/sfbx2488.pfb><c:/Program Files/texlive/2019/texmf-dist/fo
-nts/type1/public/cm-super/sfcc1200.pfb><c:/Program Files/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfcc1728.pfb><c:/Program Files/texlive/2019/texmf
--dist/fonts/type1/public/cm-super/sfcc2074.pfb><c:/Program Files/texlive/2019/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Program Files/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Program Files/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb><c:/Program File
-s/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Report.pdf (12 pages, 657942 bytes).
+blic/amsfonts/cm/cmr8.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files/texlive/2019/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1200.pfb><c:/Program Files/texlive/2019/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2019/texmf
+-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/Program Files/texlive/2019/t
+exmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/Program Files/texlive/20
+19/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb><c:/Program Files/texliv
+e/2019/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb><c:/Program Files/te
+xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/Program File
+s/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program 
+Files/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/Prog
+ram Files/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb><c:/
+Program Files/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+
+Output written on Report.pdf (20 pages, 1153749 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

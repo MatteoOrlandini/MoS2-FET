@@ -19,6 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Dragoman:ferroelectric}{article}{}
+      \name{author}{4}{}{%
+        {{hash=891ac4f9f767c2a5170129852de7461b}{%
+           family={Dragoman},
+           familyi={D\bibinitperiod},
+           given={Mircea},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13236f0a76c8b14ff74e6ba167047cb7}{%
+           family={Aldrigo},
+           familyi={A\bibinitperiod},
+           given={Martino},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d68165d1d1b712dbe3e37ed7623c4919}{%
+           family={Modreanu},
+           familyi={M\bibinitperiod},
+           given={Mircea},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0382012e8c854190fb77a2f63084f4f3}{%
+           family={Dragoman},
+           familyi={D\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{516df4285a044e3d46d7823c553d5765}
+      \strng{fullhash}{516df4285a044e3d46d7823c553d5765}
+      \strng{bibnamehash}{516df4285a044e3d46d7823c553d5765}
+      \strng{authorbibnamehash}{516df4285a044e3d46d7823c553d5765}
+      \strng{authornamehash}{516df4285a044e3d46d7823c553d5765}
+      \strng{authorfullhash}{516df4285a044e3d46d7823c553d5765}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{10}
+      \field{title}{Extraordinary tunability of high-frequency devices using Hf0.3Zr0.7O2 ferroelectric at very low applied voltages}
+      \field{volume}{110}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{103104}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4978032
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4978032
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4978032
+      \endverb
+    \endentry
     \entry{Howell:MonolayerMultiLayer_MoS2}{article}{}
       \name{author}{9}{}{%
         {{hash=46759cdf38d9596666ab06ca49a1b2be}{%
