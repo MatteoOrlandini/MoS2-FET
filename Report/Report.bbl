@@ -1,0 +1,223 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Howell:MonolayerMultiLayer_MoS2}{article}{}
+      \name{author}{9}{}{%
+        {{hash=46759cdf38d9596666ab06ca49a1b2be}{%
+           family={Howell},
+           familyi={H\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7a5e7be75be609750d95d18e2d230c18}{%
+           family={Jariwala},
+           familyi={J\bibinitperiod},
+           given={Deep},
+           giveni={D\bibinitperiod}}}%
+        {{hash=70b867b554a7c17ea070fbf5bb7219ea}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chung-Chiang},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=b6b22b2c55a19e22f2ee2a5bde60c588}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kan-Sheng},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=fee5c1fdbc8fc28576d2c9ac72ac5d4f}{%
+           family={Sangwan},
+           familyi={S\bibinitperiod},
+           given={Vinod\bibnamedelima K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f658841e1b18eab6316664763fd2fa54}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Junmo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6d70fa548c274f0ae588b8155d24e1d2}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Tobin\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=59b2abb5fe45884a94edde71afa253a8}{%
+           family={Hersam},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=04baf47978a7fcdb954c74e13d824d69}{%
+           family={Lauhon},
+           familyi={L\bibinitperiod},
+           given={Lincoln\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8920ee90320b26721c5bd36a9520d111}
+      \strng{fullhash}{8920ee90320b26721c5bd36a9520d111}
+      \strng{bibnamehash}{8920ee90320b26721c5bd36a9520d111}
+      \strng{authorbibnamehash}{8920ee90320b26721c5bd36a9520d111}
+      \strng{authornamehash}{8920ee90320b26721c5bd36a9520d111}
+      \strng{authorfullhash}{8920ee90320b26721c5bd36a9520d111}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nano Letters}
+      \field{month}{4}
+      \field{note}{PMID: 25807012}
+      \field{number}{4}
+      \field{title}{Investigation of Band-Offsets at Monolayer–Multilayer MoS2 Junctions by Scanning Photocurrent Microscopy}
+      \field{volume}{15}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{2278\bibrangedash 2284}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/nl504311p
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/nl504311p
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/nl504311p
+      \endverb
+    \endentry
+    \entry{Radisavljevic:Si_MoS2}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cf19f0461d773db727e6ce9f5a03222b}{%
+           family={Radisavljevic},
+           familyi={R\bibinitperiod},
+           given={Branimir},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cec695f9472bb6ed56c08d848ba1524b}{%
+           family={Radenovic},
+           familyi={R\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e3d2514b675fecb0be3d4d09b8d8294}{%
+           family={Brivio},
+           familyi={B\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6401e4bb210c3024470db86ab3edad72}{%
+           family={Giacometti},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0d65d8b35c25b1f6df1c09159676aab6}{%
+           family={Kis},
+           familyi={K\bibinitperiod},
+           given={Andras},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5114b29e320e497d9a347c5d3d19979f}
+      \strng{fullhash}{5114b29e320e497d9a347c5d3d19979f}
+      \strng{bibnamehash}{5114b29e320e497d9a347c5d3d19979f}
+      \strng{authorbibnamehash}{5114b29e320e497d9a347c5d3d19979f}
+      \strng{authornamehash}{5114b29e320e497d9a347c5d3d19979f}
+      \strng{authorfullhash}{5114b29e320e497d9a347c5d3d19979f}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-3395}
+      \field{journaltitle}{Nature Nanotechnology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Single-layer MoS2 transistors}
+      \field{volume}{6}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{147\bibrangedash 150}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nnano.2010.279
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nnano.2010.279
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nnano.2010.279
+      \endverb
+    \endentry
+    \entry{Wu:Ultrathin_MoS2}{article}{}
+      \name{author}{6}{}{%
+        {{hash=70b867b554a7c17ea070fbf5bb7219ea}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chung-Chiang},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=7a5e7be75be609750d95d18e2d230c18}{%
+           family={Jariwala},
+           familyi={J\bibinitperiod},
+           given={Deep},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fee5c1fdbc8fc28576d2c9ac72ac5d4f}{%
+           family={Sangwan},
+           familyi={S\bibinitperiod},
+           given={Vinod\bibnamedelima K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6d70fa548c274f0ae588b8155d24e1d2}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Tobin\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=59b2abb5fe45884a94edde71afa253a8}{%
+           family={Hersam},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=04baf47978a7fcdb954c74e13d824d69}{%
+           family={Lauhon},
+           familyi={L\bibinitperiod},
+           given={Lincoln\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \strng{fullhash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \strng{bibnamehash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \strng{authorbibnamehash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \strng{authornamehash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \strng{authorfullhash}{5de4db174b7beb8ef44b63caaeddcbd7}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{number}{15}
+      \field{title}{Elucidating the Photoresponse of Ultrathin MoS2 Field-Effect Transistors by Scanning Photocurrent Microscopy}
+      \field{volume}{4}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{2508\bibrangedash 2513}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/jz401199x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jz401199x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jz401199x
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
