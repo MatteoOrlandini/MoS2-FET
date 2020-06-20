@@ -100,9 +100,9 @@ We can therefore say that they can be used for further experiments and expect th
 \newpage
 \section{MoS$_2$ transistor}
 
-In~\cite{Howell:MonolayerMultiLayer_MoS2} is investigated the band-offsets at monolayer-multilayer MoS$_2$ junctions by scanning photocurrent microscopy. The thickness-dependent band structure of MoS$_2$ implies that discontinuities in energy bands exist at the interface of monolayer (1L) and multilayer (ML) thin films. The characteristics of such heterojunctions are analyzed using finite element simulations of charge carrier transport. We used that simulations to compare their results to our COMSOL model.
+In~\cite{Howell:MonolayerMultiLayer_MoS2} is investigated the band-offsets at monolayer and multilayer MoS$_2$ junctions by scanning photocurrent microscopy. The thickness dependent band structure of MoS$_2$ implies that discontinuities in energy bands exist at the interface of monolayer (1L) and multilayer (ML) thin films. The characteristics of such heterojunctions are analyzed using finite element simulations of charge carrier transport. We used that simulations to compare their results to our COMSOL model.
 
-Transition metal dichalcogenides (TMDCs) such as MoS$_2$ consist of discrete two-dimensional (2D) layers bound together by van der Waals forces, with important consequences for both physical and electronic structure of these ultrathin semiconducting crystals. MoS$_2$ flakes exhibit distinctive thickness-dependent variations in physical properties and the band structure varies with multilayer thickness.
+Transition metal dichalcogenides (TMDCs) such as MoS$_2$ consist of discrete two-dimensional (2D) layers bound together by van der Waals forces, with important consequences for both physical and electronic structure of these ultrathin semiconducting crystals. MoS$_2$ flakes exhibit distinctive thickness dependent variations in physical properties and the band structure varies with multilayer thickness.
 
 MoS$_2$ flakes were exfoliated from commercially available crystals of molybdenite onto n$^+$ Si substrates coated with 300 nm of SiO$_2$. The devices were formed by electron beam lithography and lift-off of Au ohmic contacts with 75 nm thickness. Fig.~\ref{fig:monolayer_model} shows the device geometry.
 %\begin{figure}[H]
@@ -144,8 +144,8 @@ The parameters used in COMSOL are shown in Tab.~\ref{table:MoS2}.
 		Thickness of MoS$_2$       & 0.7nm/layer              \\
 		Band gap 1L MoS$_2$        & 2.76 eV                  \\
 		Band gap 4L MoS$_2$        & 1.6 eV                   \\
-		Electron affinity 1L Mo$_2$& 4.7                      \\
-		Electron affinity 4L MoS$_2$& 4                       \\
+		Electron affinity 1L Mo$_2$& 4.7 eV                   \\
+		Electron affinity 4L MoS$_2$& 4 eV                    \\
 		Relative permittivity 1L   & 4.2                      \\
 		Relative permittivity 4L   & 11                       \\
 		Mobility 1L                & 6 $cm^2 V^{-1} s^{-1}$	  \\
@@ -156,8 +156,8 @@ The parameters used in COMSOL are shown in Tab.~\ref{table:MoS2}.
 		SRH lifetimes 4L           & 0.3 ns                   \\
 		Workfunction of gate       & 4.05 V                   \\
 		SiO$_2$ Relative Permittivity & 3.9                   \\
-		Electron effective mass    & $0.5 m_0$            	  \\
-		Hole effective mass        & $0.5 m_0$           	  \\
+		Electron effective mass    & 0.5 $m_0$            	  \\
+		Hole effective mass        & 0.5 $m_0$           	  \\
 		Thickness gold contact     & 75 nm                    \\
 		Length MoS$_2$             & 3.5 $\mu m$              \\
 		Silicon thickness          & 2 $\mu m$                \\
@@ -169,7 +169,7 @@ The parameters used in COMSOL are shown in Tab.~\ref{table:MoS2}.
 	\label{table:MoS2}
 \end{table}
 
-The figures shown below are the simulated and experimental (see legend) output characteristics when $V_G = 0.1 V$ (\ref{fig:4layer_Id(Vd)}) and transfer characteristics when $V_D = 0.01 V$ (\ref{fig:4layer_Id(Vg)})for a 4L thick FET. Simulated and experimental output characteristics when $V_G = 10 V$ (\ref{fig:monolayer_Id(Vd)}) and transfer characteristics when $V_D = 0.05$ (\ref{fig:monolayer_Id(Vg)}) for a 1L thick FET. Experimental data in are reproduced from~\cite{Wu:Ultrathin_MoS2}. Ideal transistor transfer curves show zero current below the threshold voltage and a linear gate bias dependence above the threshold voltage. Deviations of experimental transfer curves from ideal simulations have been attributed to scattering from unscreened charged impurities and a carrier density-dependent mobility. Mobility limited by Coulomb scattering leads to approximately parabolic instead of linear experimental transfer curves above the threshold voltage and reduces current magnitudes. An additional series contact resistance may further limit the current magnitudes in the experimental devices.
+The figures shown below are the simulated and experimental (see legend) output characteristics when $V_G = 0.1 V$ (\ref{fig:4layer_Id(Vd)}) and transfer characteristics when $V_D = 0.01 V$ (\ref{fig:4layer_Id(Vg)})for a 4L thick FET. Simulated and experimental output characteristics when $V_G = 10 V$ (\ref{fig:monolayer_Id(Vd)}) and transfer characteristics when $V_D = 0.05$ (\ref{fig:monolayer_Id(Vg)}) for a 1L thick FET. Experimental data are reproduced from~\cite{Wu:Ultrathin_MoS2}. Ideal transistor transfer curves show zero current below the threshold voltage and a linear gate bias dependence above the threshold voltage. Deviations of experimental transfer curves from ideal simulations have been attributed to scattering from unscreened charged impurities and a carrier density dependent mobility. Mobility limited by Coulomb scattering leads to approximately parabolic instead of linear experimental transfer curves above the threshold voltage and reduces current magnitudes. An additional series contact resistance may further limit the current magnitudes in the experimental devices.
 
 \begin{figure}[H]
 	\centering
@@ -208,26 +208,26 @@ The figures shown below are the simulated and experimental (see legend) output c
 %	\subfloat[][COMSOL HfO$_2$ model]
 %	{\includegraphics[width=.45\textwidth]{Immagini/HfO2_model_comsol.png} \label{fig:HfO2_model_comsol}} 
 %\end{figure} 
-In~\cite{Radisavljevic:Si_MoS2} is studied a FET with a 30 nm HfO$_2$ top gate insulator. Using recent theoretical studies of mobility improvement by dielectric screening and its successful application to graphene, is used an atomic layer deposition (ALD) of 30 nm HfO$_2$ as a high-k gate dielectric for the
+A FET with a 30 nm HfO$_2$ top gate insulator is studied in~\cite{Radisavljevic:Si_MoS2}. Using recent theoretical studies of mobility improvement by dielectric screening and its successful application to graphene, an atomic layer deposition (ALD) of 30 nm HfO$_2$ is used as a high-k gate dielectric for the
 local top gate and mobility booster to realize the full potential of the single-layer MoS$_2$. HfO$_2$ is used because of its high dielectric constant of 25, bandgap of 5.7 eV and the fact that it is commonly used as a gate dielectric both by the research community and major microprocessor manufacturers. A schematic depiction of the device is shown in Fig.~\ref{fig:HfO2_fabrication}. The width of the top gate of this device is 4 $\mu m$ and the top gate length, source–gate and gate–drain spacing were 500 nm.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=1\textwidth]{Immagini/HfO2_fabrication.png} 
+	\includegraphics[width=.8\textwidth]{Immagini/HfO2_fabrication.png} 
 	\caption{Three-dimensional schematic view of the transistor.~\cite{Radisavljevic:Si_MoS2}}
 	\label{fig:HfO2_fabrication}
 \end{figure} 
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\textwidth]{Immagini/HfO2_model.png} 
-	\caption{Cross sectional view of the structure of a monolayer MoS$_2$ FET together with electrical connections used to characterize the device. A single layer of MoS$_2$ (thickness, 6.5 \AA) is deposited on a degenerately doped silicon substrate with 270-nm-thick SiO$_2$. The substrate acts a back gate. One of the gold electrodes acts as drain and the other source electrode is grounded. The monolayer is separated from the top gate by 30 nm of ALD-grown HfO$_2$. The top gate width for the device is 4 $\mu m$ and the top gate length, source–gate and gate–drain spacing are each 500 nm.~\cite{Radisavljevic:Si_MoS2}}
+	\caption{Cross sectional view of the structure of a monolayer MoS$_2$ FET together with electrical connections used to characterize the device. A single layer of MoS$_2$ (thickness, 6.5 \AA) is deposited on a degenerately doped silicon substrate with 270 nm thick SiO$_2$. The substrate acts a back gate. One of the gold electrodes acts as drain and the other source electrode is grounded. The monolayer is separated from the top gate by 30 nm of ALD-grown HfO$_2$. The top gate width is 4 $\mu m$ and the top gate length, source–gate and gate–drain spacing are each 500 nm.~\cite{Radisavljevic:Si_MoS2}}
 	\label{fig:HfO2_model}
 \end{figure} 
 
 We created the COMSOL model as described in the previous chapter. We changed some parameters as shown in Tab.~\ref{table:HfO2} and we add the HfO$_2$ thin gate oxide and and the top gate contact. We also used the charge conservation model in the top gate contact. 
 
-In order to find the electron affinity of MoS$_2$ we did a parametric study. Simulating the $I_d(V_d)$ and $I_d(V_bg)$ curves, we varied the electron affinity parameter. We saw that an electron affinity of 5 eV the plots are very similar to the curves in~\cite{Radisavljevic:Si_MoS2}.
+In order to find the electron affinity of MoS$_2$ we did a parametric study. Simulating the $I_d(V_d)$ and $I_d(V_{bg})$ curves, we varied the electron affinity parameter. We saw that an electron affinity of 5 eV the plots are very similar to the curves in~\cite{Radisavljevic:Si_MoS2}.
 
 \begin{figure}[H]
 	\centering
@@ -245,8 +245,8 @@ The parameters used in COMSOL are shown in Tab.~\ref{table:HfO2}.
 		\midrule 
 		Thickness of MoS$_2$           & 0.65 nm              \\ 
 		Band gap MoS$_2$               & 1.8 eV               \\ 
-		Electron affinity MoS$_2$      & 5 V                  \\ 
-		Relative permittivity MoS$_2$  & 4.2                  \\ 
+		Electron affinity MoS$_2$      & 5 V eV               \\ 
+		Relative permittivity MoS$_2$  & 4.2 eV               \\ 
 		Relative permittivity HfO$_2$  & 25                   \\ 
 		Mobility                       & 217 $cm^2V^{-1}s^{-1}$ \\ 
 		SRH lifetimes                  & 1.5 ns               \\ 
@@ -272,7 +272,7 @@ The parameters used in COMSOL are shown in Tab.~\ref{table:HfO2}.
 
 The source current versus source bias characteristics (Fig.~\ref{fig:Id(Vd)_HfO2_MoS2}) is linear in the $\pm 50 mV$ range of voltages. The gating characteristics of the transistor is shown in Fig.~\ref{fig:Id(Vbg)_HfO2_MoS2} and this is typical of FET devices with an n-type channel.
 
-From the data presented in Fig.~\ref{fig:Id(Vbg)_HfO2_MoS2} we can extract the low-field field-effect mobility of $\sim$217 $cm^2 V^{-1} s^{-1}$ using the expression $\mu = [dI_{ds}/dV_{bg}]\cdot[L/(WC_iV_{ds})]$, where $L = 1.5 \mu m$ is the channel length, $W = 4 \mu m$ is the channel width and $C_i = 1.3 \cdot 10^{-4}~Fm^{-2}$ is the capacitance between the channel and the back gate per unit area ($C_i = \varepsilon_0 \varepsilon_r / d$, $\varepsilon_r = 3.9$, $d = 270~nm$).
+From the data presented in Fig.~\ref{fig:Id(Vbg)_HfO2_MoS2} we can extract the low-field field-effect mobility of $\sim$217 $cm^2 V^{-1} s^{-1}$ using the expression $\mu = [dI_{ds}/dV_{bg}]\cdot[L/(WC_iV_{ds})]$, where $L = 1.5~\mu m$ is the channel length, $W = 4 \mu m$ is the channel width and $C_i = 1.3 \cdot 10^{-4}~Fm^{-2}$ is the capacitance between the channel and the back gate per unit area ($C_i = \varepsilon_0 \varepsilon_r / d$, $\varepsilon_r = 3.9$, $d = 270~nm$).
 
 The improvement in mobility with the deposition of a high-$k$ dielectric could be due to suppression of Coulomb scattering due to the high-$k$ dielectric environment and modification of phonon dispersion in MoS$_2$ monolayers.
 
@@ -298,7 +298,7 @@ At the bias voltage $V_{ds} = 500 mV$, the maximal measured on-current in~\cite{
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps} 
+	\includegraphics[width=.8\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps} 
 	\caption{$I_{ds}$-$V_{tg}$ curve recorded for a bias voltage ranging from 10 mV to 500 mV. Measurements are performed with the back gate grounded. The device can be completely turned off by changing the top gate bias from –2 to –4 V. In~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = 10 mV$ mV, the $I_{on}/I_{off}$ ratio is $10^6$. For $V_{ds} = 500 mV$, the $I_{on}/I_{off}$ ratio is $10^8$. We obtain a major value of $I_{on}/I_{off}$ ratio but we can still turn off the transistor with top gate bias from –2 to –4 V.}
 	\label{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}
 \end{figure}
@@ -307,7 +307,7 @@ Fig.~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg} shows the $I_{ds}$-$V_{tg}$ curve f
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg.eps} 
+	\includegraphics[width=.7\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg.eps} 
 	\caption{$I_{ds}$-$V_{tg}$ for $V_{bg}=0V$.}
 	\label{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg}
 \end{figure}
@@ -316,7 +316,7 @@ The large degree of current control in our device is also clearly illustrated in
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg.eps} 
+	\includegraphics[width=.7\textwidth]{Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg.eps} 
 	\caption{$I_d(V_{ds})$ curves recorded for different values of $V_{tg}$.}
 	\label{fig:Id(Vds)_HfO2_MoS2_varying_Vtg}
 \end{figure} 
