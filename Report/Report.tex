@@ -299,7 +299,7 @@ At the bias voltage $V_{ds} = 500 mV$, the maximal measured on-current in~\cite{
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.8\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps} 
-	\caption{$I_{ds}$-$V_{tg}$ curve recorded for a bias voltage ranging from 10 mV to 500 mV. Measurements are performed with the back gate grounded. The device can be completely turned off by changing the top gate bias from –2 to –4 V. In~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = 10 mV$ mV, the $I_{on}/I_{off}$ ratio is $10^6$. For $V_{ds} = 500 mV$, the $I_{on}/I_{off}$ ratio is $10^8$. We obtain a major value of $I_{on}/I_{off}$ ratio but we can still turn off the transistor with top gate bias from –2 to –4 V.}
+	\caption{$I_{ds}$-$V_{tg}$ curve recorded for a bias voltage ranging from 10 mV to 500 mV. Measurements are performed with the back gate grounded. The device can be completely turned off by changing the top gate bias from –2 to –4 V. In~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = 10~mV$, the $I_{on}/I_{off}$ ratio is $10^6$. For $V_{ds} = 500 mV$, the $I_{on}/I_{off}$ ratio is $10^8$. We obtain a major value of $I_{on}/I_{off}$ ratio but we can still turn off the transistor with top gate bias from –2 to –4 V.}
 	\label{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}
 \end{figure}
 
@@ -325,7 +325,7 @@ The large degree of current control in our device is also clearly illustrated in
 \section{MoS$_2$ transistor with Hf$_{0.3}$Zr$_{0.7}$O$_2$}
 We tried to simulate a transitor with a thin layer of ferroelectric material. We used a layer of Hf$_{0.3}$Zr$_{0.7}$O$_2$ with 6 nm of thickness. We started from the previous COMSOL model, we changed the HfO$_2$ thickness from 30 nm to 20 nm.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.6\textwidth]{Immagini/HfZrO2_permittivity.png} 
 	\caption{Hf$_{0.3}$Zr$_{0.7}$O$_2$ permittivity~\cite{Dragoman:ferroelectric}}
@@ -334,7 +334,7 @@ We tried to simulate a transitor with a thin layer of ferroelectric material. We
 
 We used the COMSOL interpolation model to implement the relation between the relative permittivity and the applied voltage described in~\cite{Dragoman:ferroelectric} and shown in~\ref{fig:HfZrO2_permittivity}. We used 10 points from the curve, a linear interpolation and a nearest function extrapolation. The result is shown in Fig.~\ref{fig:permittivity_HfZrO2}.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.7\textwidth]{Grafici/permittivity_HfZrO2.eps} 
 	\caption{COMSOL Hf$_{0.3}$Zr$_{0.7}$O$_2$ permittivity}
@@ -342,32 +342,68 @@ We used the COMSOL interpolation model to implement the relation between the rel
 \end{figure}
 
 We simulated the curves in COMSOL to see the FET behaviour. The Fig.~\ref{fig:HfZrO2_Id(Vd)_varying_Vbg} shows the $I_d$-$V_{ds}$ curve and is obtained with the top gate disconnected and for $V_{bg} = 0 V$ and $V_{bg} = 5 V$. We can see a resistive behaviour until $\sim1 $ V for $V_{bg} = 0 V$ and until $\sim3 $ V for $V_{bg} = 5 V$.
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd)_varying_Vbg.eps} 
 	\caption{$I_d(V_{ds})$ varying $V_{bg}$}
 	\label{fig:HfZrO2_Id(Vd)_varying_Vbg}
 \end{figure} 
 
-The Fig.~\ref{fig:HfZrO2_Id(Vd)_varying_Vtg} shows the $I_d$-$V_{ds}$ curve with $V_{bg} = 0$ for $V_{tg} = -2V$, $0V$ and $5V$. In this case the maximum drain current is about $25 \mu$A obtained for $V_{tg} = 5V$. In the resistive region the slope is greater that the previous study but the maximum current is lower.
+The Fig.~\ref{fig:HfZrO2_Id(Vd)_varying_Vtg_high_Vd} shows the $I_d$-$V_{ds}$ curve with $V_{bg} = 0$ for $V_{tg} = -2V$, $0V$ and $5V$. In this case the maximum drain current is about $25 \mu$A obtained for $V_{tg} = 5V$. In the resistive region the slope is greater that the previous study but the maximum current is lower.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd)_varying_Vtg.eps} 
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd)_varying_Vtg_high_Vd.eps} 
 	\caption{$I_d(V_{ds})$ varying $V_{tg}$}
-	\label{fig:HfZrO2_Id(Vd)_varying_Vtg}
+	\label{fig:HfZrO2_Id(Vd)_varying_Vtg_high_Vd}
 \end{figure} 
 
-In Fig.~\ref{fig:HfZrO2_Id(Vtg)} is shown the $I_d$-$V_{tg}$ curve with $V_{bg}=0V$ and $V_{ds} = 10 mV$.
 
-\begin{figure}[H]
+Fig.~\ref{fig:HfZrO2_Id(Vd)},~\ref{fig:HfZrO2_Id(Vbg)},~\ref{fig:HfZrO2_Id(Vtg)_varying_Vds},~\ref{fig:HfZrO2_Id(Vtg)} and~\ref{fig:HfZrO2_Id(Vds)_varying_Vtg} show the same studies of the previous model. A comparison with Fig.~\ref{fig:Id(Vd)_HfO2_MoS2},~\ref{fig:Id(Vbg)_HfO2_MoS2} and~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg} prove more available current when the device is in the on state compared to the previous case.
+
+Fig.~\ref{fig:HfZrO2_Id(Vtg)_varying_Vds} shows a worse $I_{on}/I_{off}$ ratio than Fig.~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}. With a ferroelectric material we have an $I_{on}/I_{off}$ ratio of $10^5$ for $V_{ds}=500~mV$ and about $10^3$ for $V_{ds}=10~mV$ while in~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = 500~mV$, the $I_{on}/I_{off}$ ratio is $10^8$ and for $V_{ds} = 10~mV$, the $I_{on}/I_{off}$ ratio is $10^6$.
+
+In Fig.~\ref{fig:HfZrO2_Id(Vtg)} is shown the $I_d$-$V_{tg}$ curve with $V_{bg}=0V$ and $V_{ds} = 10 mV$.
+Fig.~\ref{fig:HfZrO2_Id(Vds)_varying_Vtg} indicates that for $V_{tg} = -2.5~V$ the device in still on, while in the same conditions the device is completely turned off in Fig.~\ref{fig:Id(Vds)_HfO2_MoS2_varying_Vtg}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd).eps} 
+	\caption{$I_d(V_{d})$}
+	\label{fig:HfZrO2_Id(Vd)}
+\end{figure} 
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vbg).eps} 
+	\caption{$I_d(V_{bg})$}
+	\label{fig:HfZrO2_Id(Vbg)}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vtg)_varying_Vds.eps} 
+	\caption{$I_d(V_{tg})$ varying $V_{ds}$}
+	\label{fig:HfZrO2_Id(Vtg)_varying_Vds}
+\end{figure} 
+
+
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vtg).eps} 
 	\caption{$I_d(V_{tg})$}
 	\label{fig:HfZrO2_Id(Vtg)}
 \end{figure} 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vds)_varying_Vtg.eps} 
+	\caption{$I_d(V_{ds})$ varying $V_{tg}$}
+	\label{fig:HfZrO2_Id(Vds)_varying_Vtg}
+\end{figure} 
 
+\clearpage
 \newpage
 
 \nocite{*}
