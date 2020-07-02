@@ -1,10 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}MoS$_2$ transistor}{2}{section.2}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}MoS$_2$ transistor with HfO$_2$}{7}{section.3}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}MoS$_2$ transistor with Hf$_{0.3}$Zr$_{0.7}$O$_2$}{13}{section.4}% 
