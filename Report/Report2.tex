@@ -1,0 +1,416 @@
+\documentclass[electronics,article,submit,moreauthors,pdftex]{Definitions/mdpi} 
+
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{xx}
+\issuenum{1}
+\articlenumber{5}
+\pubyear{2020}
+\copyrightyear{2020}
+%\externaleditor{Academic Editor: name}
+\history{Received: date; Accepted: date; Published: date}
+%\updates{yes} % If there is an update available, un-comment this line
+
+%% MDPI internal command: uncomment if new journal that already uses continuous page numbers 
+%\continuouspages{yes}
+
+%------------------------------------------------------------------
+% The following line should be uncommented if the LaTeX file is uploaded to arXiv.org
+%\pdfoutput=1
+
+%=================================================================
+% Add packages and commands here. The following packages are loaded in our class file: fontenc, inputenc, calc, indentfirst, fancyhdr, graphicx,epstopdf, lastpage, ifthen, lineno, float, amsmath, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, tabto, xcolor, soul, multirow, microtype, tikz, totcount, amsthm, hyphenat, natbib, hyperref, footmisc, url, geometry, newfloat, caption
+
+%=================================================================
+%% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
+%% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{Simulations of Monolayer and Multilayer MoS$_2$ FET}
+
+% Author Orchid ID: enter ID or remove command
+%\newcommand{\orcidauthorA}{0000-0000-000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorB}{0000-0000-000-000X} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+\Author{Matteo Orlandini $^{1,\ddagger}$ and Jacopo Pagliuca $^{2,\ddagger}$}
+
+
+% Authors, for metadata in PDF
+\AuthorNames{Matteo Orlandini and Jacopo Pagliuca}
+
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+$^{1}$ \quad Università Politecnica delle Marche; S1096441@studenti.univpm.it\\
+$^{2}$ \quad Università Politecnica delle Marche; S1096443@studenti.univpm.it}
+
+% Contact information of the corresponding author
+%\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation 3} 
+\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\) 
+\abstract{Two dimensional materials are object of researches due to their ease to fabricate complex structures with them and the high performance that they show. A single layer of MoS$_2$ can be substituted to a transistor channel. We have implemented some MOSFET models in COMSOL Multiphysics. The results obtained are then compared with the experimental ones found in~\cite{Howell:MonolayerMultiLayer_MoS2} and~\cite{Radisavljevic:Si_MoS2}. We noticed that the plots are similar to the ones on the papers used for this work, so the simulations are close to the experimental results.}
+
+% Keywords
+\keyword{Transistor, Molybdenum disulfide, 2-D materials, Ferroelectric}
+
+\usepackage{SIunitx}
+\begin{document}
+
+\section{Introduction}
+
+In the following report different kinds of models of transistors based on the monolayer material have been studied. In section~\ref{mos2} is shown a transistor with a monolayer and a four layer MoS$_2$ channel. This study is based on~\cite{Howell:MonolayerMultiLayer_MoS2} and results are compared with the simulated ones that are in this paper. This kind on transistor has a single silicon bottom gate.
+In section~\ref{hafnium} another transistor shown in~\cite{Radisavljevic:Si_MoS2} is studied. This has a bottom and a top gate made of Cr/Au isolated by a layer of hafnium dioxide. This oxide is used to demonstrate a room-temperature single-layer MoS$_2$ mobility of at least \SI{200}{\square \centi \meter \per \volt \per \second}, similar to that of graphene nanoribbons.
+The last model refers to~\cite{Dragoman:ferroelectric} and uses a ferroelectric material, a layer of Hf$_0.3$Zr$_0.7$O$_2$ with 6nm of thickness, instead of the silicon oxide. The ferroeletric material polarization can be reversed by an applied electric field, the polarization is dependent not only on the current electric field but also on its history, giving a hysteresis loop.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+
+\subsection{MoS$_2$ transistor}
+\label{mos2}
+
+In~\cite{Howell:MonolayerMultiLayer_MoS2} is investigated the band-offsets at monolayer and multilayer MoS$_2$ junctions by scanning photocurrent microscopy. The thickness dependent band structure of MoS$_2$ implies that discontinuities in energy bands exist at the interface of monolayer (1L) and multilayer (ML) thin films. The characteristics of such heterojunctions are analyzed using finite element simulations of charge carrier transport. We used that simulations to compare their results to our COMSOL model.
+
+Transition metal dichalcogenides (TMDCs) such as MoS$_2$ consist of discrete two-dimensional (2D) layers bound together by van der Waals forces, with important consequences for both physical and electronic structure of these ultrathin semiconducting crystals. MoS$_2$ flakes exhibit distinctive thickness dependent variations in physical properties and the band structure varies with multilayer thickness.
+
+MoS$_2$ flakes were exfoliated from commercially available crystals of molybdenite onto n$^+$ Si substrates coated with \SI{300}{\nano \meter} of SiO$_2$. The devices were formed by electron beam lithography and lift-off of Au ohmic contacts with \SI{75}{\nano \meter} thickness. Fig.~\ref{fig:monolayer_model} shows the device geometry.
+%\begin{figure}[H]
+%	\centering
+%	\subfloat[][Monolayer model~\cite{Wu:Ultrathin_MoS2}]
+%	{\includegraphics[width=.45\textwidth]{Immagini/monolayer_model.png} \label{fig:monolayer_model}}
+%	\subfloat[][COMSOL monolayer model]
+%	{\includegraphics[width=.5\textwidth]{Immagini/monolayer_model_comsol.png} \label{fig:monolayer_model_comsol}} 
+%\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.5\textwidth]{Immagini/monolayer_model.png} 
+	\caption{Monolayer model~\cite{Wu:Ultrathin_MoS2}}
+	\label{fig:monolayer_model}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{Immagini/monolayer_model_comsol.png}
+	\caption{COMSOL monolayer model}
+	\label{fig:monolayer_model_comsol}
+\end{figure} 
+
+The parameters used in COMSOL are shown in Tab.~\ref{table:MoS2}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l l}
+		\toprule
+		\textbf{Parameter}	       & \textbf{Value}			 \\
+		\midrule
+		Thickness of MoS$_2$       & \SI{0.7}{\nano \meter \per layer}              \\
+		Band gap 1L MoS$_2$        & \SI{2.76} {\electronvolt}                  \\
+		Band gap 4L MoS$_2$        & \SI{1.6} {\electronvolt}                   \\
+		Electron affinity 1L Mo$_2$& \SI{4.7} {\electronvolt}                   \\
+		Electron affinity 4L MoS$_2$& \SI{4} {\electronvolt}                    \\
+		Relative permittivity 1L   & 4.2                      \\
+		Relative permittivity 4L   & 11                       \\
+		Mobility 1L                & \SI{6} {\square \centi \meter \per \volt \per \second}	  \\
+		Mobility 4L                & \SI{25} {\square \centi \meter \per \volt \per \second}  \\
+		Drain contact type         & Ideal ohmic              \\
+		Source contact type        & Ideal ohmic              \\
+		SRH lifetimes 1L           & \SI{1.5} {\nano \second}                   \\
+		SRH lifetimes 4L           & \SI{0.3} {\nano \second}                   \\
+		Workfunction of gate       & \SI{4.05} {\volt}                   \\
+		SiO$_2$ Relative Permittivity & 3.9                   \\
+		Electron effective mass    & 0.5 $m_0$            	  \\
+		Hole effective mass        & 0.5 $m_0$           	  \\
+		Thickness gold contact     & \SI{75} {\nano \meter}                    \\
+		Length MoS$_2$             & \SI{3.5} {\micro \meter}              \\
+		Silicon thickness          & \SI{2} {\micro \meter}                 \\
+		SiO$_2$ thickness          & \SI{300} {\nano \meter}	                  \\
+		Width                      & \SI{6.8} {\micro \meter}              \\
+		\bottomrule
+	\end{tabular}
+	\caption{Parameters}
+	\label{table:MoS2}
+\end{table}
+
+The figures shown below are the simulated and experimental (see legend) output characteristics when $V_G = \SI{0.1}{\volt}$ (\ref{fig:4layer_Id(Vd)}) and transfer characteristics when $V_D = \SI{0.01}{\volt}$ (\ref{fig:4layer_Id(Vg)})for a 4L thick FET. Simulated and experimental output characteristics when $V_G = \SI{10}{\volt}$ (\ref{fig:monolayer_Id(Vd)}) and transfer characteristics when $V_D = \SI{0.05}{\volt}$ (\ref{fig:monolayer_Id(Vg)}) for a 1L thick FET. Experimental data are reproduced from~\cite{Wu:Ultrathin_MoS2}. Ideal transistor transfer curves show zero current below the threshold voltage and a linear gate bias dependence above the threshold voltage. Deviations of experimental transfer curves from ideal simulations have been attributed to scattering from unscreened charged impurities and a carrier density dependent mobility. Mobility limited by Coulomb scattering leads to approximately parabolic instead of linear experimental transfer curves above the threshold voltage and reduces current magnitudes. An additional series contact resistance may further limit the current magnitudes in the experimental devices.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/monolayer_Id(Vd).eps} 
+	\caption{Monolayer $I_d(V_d)$}
+	\label{fig:monolayer_Id(Vd)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/monolayer_Id(Vg).eps} 
+	\caption{Monolayer $I_d(V_g)$}
+	\label{fig:monolayer_Id(Vg)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Grafici/4layer_Id(Vd).eps} 
+	\caption{4 layer $I_d(V_d)$}
+	\label{fig:4layer_Id(Vd)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/4layer_Id(Vg).eps} 
+	\caption{4 layer $I_d(V_g)$}
+	\label{fig:4layer_Id(Vg)}
+\end{figure}
+
+\subsection{MoS$_2$ transistor with HfO$_2$}
+\label{hafnium}
+%\begin{figure}[H]
+%	\centering
+%	\subfloat[][HfO$_2$ model~\cite{Radisavljevic:Si_MoS2}]
+%	{\includegraphics[width=.55\textwidth]{Immagini/HfO2_model.png} \label{fig:HfO2_model}}
+%	\subfloat[][COMSOL HfO$_2$ model]
+%	{\includegraphics[width=.45\textwidth]{Immagini/HfO2_model_comsol.png} \label{fig:HfO2_model_comsol}} 
+%\end{figure} 
+A FET with a \SI{30}{\nano \meter} HfO$_2$ top gate insulator is studied in~\cite{Radisavljevic:Si_MoS2}. Using recent theoretical studies of mobility improvement by dielectric screening and its successful application to graphene, an atomic layer deposition (ALD) of \SI{30}{\nano \meter} HfO$_2$ is used as a high-k gate dielectric for the
+local top gate and mobility booster to realize the full potential of the single-layer MoS$_2$. HfO$_2$ is used because of its high dielectric constant of 25, bandgap of \SI{5.7}{\electronvolt} and the fact that it is commonly used as a gate dielectric both by the research community and major microprocessor manufacturers. A schematic depiction of the device is shown in Fig.~\ref{fig:HfO2_fabrication}. The width of the top gate of this device is \SI{4}{\micro \meter} and the top gate length, source–gate and gate–drain spacing were \SI{500}{\nano \meter}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Immagini/HfO2_fabrication.png} 
+	\caption{Three-dimensional schematic view of the transistor.~\cite{Radisavljevic:Si_MoS2}}
+	\label{fig:HfO2_fabrication}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Immagini/HfO2_model.png} 
+	\caption{Cross sectional view of the structure of a monolayer MoS$_2$ FET together with electrical connections used to characterize the device. A single layer of MoS$_2$ (thickness, \SI{6.5}{\angstrom}) is deposited on a degenerately doped silicon substrate with \SI{270}{\nano \meter} thick SiO$_2$. The substrate acts a back gate. One of the gold electrodes acts as drain and the other source electrode is grounded. The monolayer is separated from the top gate by \SI{30}{\nano \meter} of ALD-grown HfO$_2$. The top gate width is \SI{4}{\micro \meter} and the top gate length, source–gate and gate–drain spacing are each \SI{500}{\nano \meter}.~\cite{Radisavljevic:Si_MoS2}}
+	\label{fig:HfO2_model}
+\end{figure} 
+
+We created the COMSOL model as described in the previous chapter. We changed some parameters as shown in Tab.~\ref{table:HfO2} and we add the HfO$_2$ thin gate oxide and and the top gate contact. We also used the charge conservation model in the top gate contact. 
+
+In order to find the electron affinity of MoS$_2$ we did a parametric study. Simulating the $I_d(V_d)$ and $I_d(V_{bg})$ curves, we varied the electron affinity parameter. We saw that an electron affinity of \SI{5}{\electronvolt} the plots are very similar to the curves in~\cite{Radisavljevic:Si_MoS2}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Immagini/HfO2_model_comsol.png} 
+	\caption{COMSOL HfO$_2$ model}
+	\label{fig:HfO2_model_comsol}
+\end{figure} 
+
+The parameters used in COMSOL are shown in Tab.~\ref{table:HfO2}.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l l}
+		\toprule
+		\textbf{Parameter}             & \textbf{Value}       \\
+		\midrule 
+		Thickness of MoS$_2$           & \SI{0.65}{\nano \meter}              \\ 
+		Band gap MoS$_2$               & \SI{1.8}{\electronvolt}               \\ 
+		Electron affinity MoS$_2$      & \SI{5}{\electronvolt}               \\ 
+		Relative permittivity MoS$_2$  & \SI{4.2}{\electronvolt}               \\ 
+		Relative permittivity HfO$_2$  & 25                   \\ 
+		Mobility                       & \SI{217}{\square \centi \meter  \per \volt \per \second} \\ 
+		SRH lifetimes                  & \SI{1.5}{\nano \second}           \\ 
+		Metal workfunction of top gate & \SI{4.5}{\volt}                \\ 
+		Workfunction of bottom gate    & \SI{4.05}{\volt}               \\ 
+		Metal work function source     & \SI{5.1}{\volt}                \\ 
+		Metal work function drain      & \SI{5.1}{\volt}                \\ 
+		SiO$_2$ Relative Permittivity  & 3.9                  \\ 
+		Electron effective mass        & 0.5 m$_0$            \\ 
+		Hole effective mass            & 0.5 m$_0$            \\ 
+		Gold contact length            & \SI{500}{\nano \meter}               \\ 
+		Source-gate spacing            & \SI{500}{\nano \meter}                \\ 
+		Gate-drain spacing             & \SI{500}{\nano \meter}                \\ 
+		Thickness gold contact         & \SI{50}{\nano \meter}                 \\ 
+		SiO$_2$ thickness              & \SI{270}{\nano \meter}                \\ 
+		HfO$_2$ thickness              & \SI{30}{\nano \meter}                \\ 
+		Width                          & \SI{4}{\micro \meter}               \\
+		\bottomrule
+	\end{tabular}
+	\caption{Parameters}
+	\label{table:HfO2}
+\end{table}
+
+The source current versus source bias characteristics (Fig.~\ref{fig:Id(Vd)_HfO2_MoS2}) is linear in the $\pm \SI{50} {\milli \volt}$ range of voltages. The gating characteristics of the transistor is shown in Fig.~\ref{fig:Id(Vbg)_HfO2_MoS2} and this is typical of FET devices with an n-type channel.
+
+From the data presented in Fig.~\ref{fig:Id(Vbg)_HfO2_MoS2} we can extract the low-field field-effect mobility of $\sim$ \SI{217}{\square \centi \meter  \per \volt \per \second} using the expression $\mu = [dI_{ds}/dV_{bg}]\cdot[L/(WC_iV_{ds})]$, where $L= \SI{1.5}{\micro \meter}$ is the channel length, $W = \SI{4}{\micro \meter}$ is the channel width and $C_i = \SI{1.3 e-4}{\farad \per \square \meter}$ is the capacitance between the channel and the back gate per unit area ($C_i = \varepsilon_0 \varepsilon_r / d$, $\varepsilon_r = 3.9$, $d = \SI{270}{\nano \meter}$).
+
+The improvement in mobility with the deposition of a high-$k$ dielectric could be due to suppression of Coulomb scattering due to the high-$k$ dielectric environment and modification of phonon dispersion in MoS$_2$ monolayers.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.75\textwidth]{Grafici/Id(Vd)_HfO2_MoS2.eps} 
+	\caption{$I_d(V_d)$ curve acquired for $V_{bg}$ values of \SI{0}{\volt}, \SI{1}{\volt} and \SI{5}{\volt}.}
+	\label{fig:Id(Vd)_HfO2_MoS2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.75\textwidth]{Grafici/Id(Vbg)_HfO2_MoS2.eps} 
+	\caption{Transfer characteristic $I_d(V_{bg})$ for the FET with \SI{10}{\milli \volt} applied bias voltage $V_{ds}$. Backgate voltage $V_{bg}$ is applied to the substrate and the top gate is disconnected.}
+	\label{fig:Id(Vbg)_HfO2_MoS2}
+\end{figure}
+
+One of the crucial requirements for building integrated circuits based on single layers of MoS$_2$ is the ability to control charge density in a local manner, independently of a global back gate. We can do this by applying a voltage $V_{tg}$ to the top gate, separated from the monolayer MoS$_2$ by \SI{30}{\nano \meter} of HfO$_2$ (Fig.~\ref{fig:HfO2_model}), while keeping the substrate grounded.
+
+The corresponding transfer characteristic is shown in Fig.~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}. For a bias of 10 mV we observe an on-current of \SI{150}{\nano\ampere} (\SI{37}{\nano\ampere \per \micro \meter}), current on/off ratio $I_{on}/I_{off} > 1 \cdot 10^6$ for the $\pm \SI{4}{\volt}$ range of $V_{tg}$ , an off-state current that is smaller than \SI{100}{\femto\ampere} (\SI{25}{\femto\ampere \per \micro \meter}) and gate leakage lower than \SI{2}{\pico \ampere \per \micro \meter}. The observed current variation for different values of $V_{tg}$ indicates that the field-effect behaviour of our transistor is dominated by the MoS$_2$ channel and not the contacts.
+
+At the bias voltage $V_{ds} = \SI{500}{\milli \volt}$, the maximal measured on-current in~\cite{Radisavljevic:Si_MoS2} is \SI{10}{\micro \ampere} (\SI{2.5}{\micro\ampere \per \micro \meter}), with $I_{on}/I_{off} > 1 \cdot 10^8$ for the $\SI{\pm 4}{\volt}$ range of $V_{tg}$. In our simulation for $V_{ds} = \SI{500}{\milli \volt}$ the on-current is \SI{3}{\micro \ampere} but for  $V_{ds} = \SI{100}{\milli \volt}$ and  $V_{ds} = \SI{10}{\milli \volt}$ the on-current is the same as reported in the paper. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vds.eps} 
+	\caption{$I_{ds}$-$V_{tg}$ curve recorded for a bias voltage ranging from \SI{10}{\milli \volt} to \SI{500}{\milli \volt}. Measurements are performed with the back gate grounded. The device can be completely turned off by changing the top gate bias from \SI{-2}{ \volt} to \SI{-4}{\volt}. In~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = \SI{10}{\milli \volt}$, the $I_{on}/I_{off}$ ratio is $10^6$. For $V_{ds} = \SI{500}{\milli \volt}$, the $I_{on}/I_{off}$ ratio is $10^8$. We obtain a major value of $I_{on}/I_{off}$ ratio but we can still turn off the transistor with top gate bias from \SI{-2}{ \volt} to \SI{-4}{\volt}.}
+	\label{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}
+\end{figure}
+
+Fig.~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg} shows the $I_{ds}$-$V_{tg}$ curve for $V_{bg}=\SI{0}{\volt}$ and $V_{ds}=\SI{10}{\milli \volt}$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{Grafici/Id(Vtg)_HfO2_MoS2_varying_Vbg.eps} 
+	\caption{$I_{ds}$-$V_{tg}$ for $V_{bg} = \SI{0}{\volt}$.}
+	\label{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg}
+\end{figure}
+
+The large degree of current control in our device is also clearly illustrated in Fig.~\ref{fig:Id(Vds)_HfO2_MoS2_varying_Vtg}, where we plot the drain–source current versus drain–source bias for $V_{bg}=\SI{0}{\volt}$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{Grafici/Id(Vds)_HfO2_MoS2_varying_Vtg.eps} 
+	\caption{$I_d(V_{ds})$ curves recorded for different values of $V_{tg}$.}
+	\label{fig:Id(Vds)_HfO2_MoS2_varying_Vtg}
+\end{figure} 
+
+\subsection{MoS$_2$ transistor with Hf$_{0.3}$Zr$_{0.7}$O$_2$}
+\label{zirconium}
+We tried to simulate a transitor with a thin layer of ferroelectric material. We used a layer of Hf$_{0.3}$Zr$_{0.7}$O$_2$ with \SI{6}{\nano \meter} of thickness. We started from the previous COMSOL model, we changed the HfO$_2$ thickness from \SI{30}{\nano \meter} to \SI{20}{\nano \meter}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.6\textwidth]{Immagini/HfZrO2_permittivity.png} 
+	\caption{Hf$_{0.3}$Zr$_{0.7}$O$_2$ permittivity~\cite{Dragoman:ferroelectric}}
+	\label{fig:HfZrO2_permittivity}
+\end{figure}
+
+We used the COMSOL interpolation model to implement the relation between the relative permittivity and the applied voltage described in~\cite{Dragoman:ferroelectric} and shown in~\ref{fig:HfZrO2_permittivity}. We used 10 points from the curve, a linear interpolation and a nearest function extrapolation. The result is shown in Fig.~\ref{fig:permittivity_HfZrO2}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.7\textwidth]{Grafici/permittivity_HfZrO2.eps} 
+	\caption{COMSOL Hf$_{0.3}$Zr$_{0.7}$O$_2$ permittivity}
+	\label{fig:permittivity_HfZrO2}
+\end{figure}
+
+We simulated the curves in COMSOL to see the FET behaviour. The Fig.~\ref{fig:HfZrO2_Id(Vd)_varying_Vbg} shows the $I_d$-$V_{ds}$ curve and is obtained with the top gate disconnected and for $V_{bg} = \SI{0}{\volt}$ and $V_{bg} = \SI{5}{\volt}$. We can see a resistive behaviour until $\sim \SI{1}{\volt}$ for $V_{bg} = \SI{0}{\volt}$ and \SI{5}{\volt}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd)_varying_Vbg.eps} 
+	\caption{$I_d(V_{ds})$ varying $V_{bg}$}
+	\label{fig:HfZrO2_Id(Vd)_varying_Vbg}
+\end{figure} 
+
+The Fig.~\ref{fig:HfZrO2_Id(Vd)_varying_Vtg_high_Vd} shows the $I_d$-$V_{ds}$ curve with $V_{bg} = \SI{0}{\volt}$ for $V_{tg} = \SI{-2}{\volt}$, \SI{0}{\volt} and \SI{5}{\volt}. In this case the maximum drain current is about \SI{25}{\micro \ampere} obtained for $V_{tg} = \SI{5}{\volt}$. In the resistive region the slope is greater that the previous study but the maximum current is lower.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd)_varying_Vtg_high_Vd.eps} 
+	\caption{$I_d(V_{ds})$ varying $V_{tg}$}
+	\label{fig:HfZrO2_Id(Vd)_varying_Vtg_high_Vd}
+\end{figure} 
+
+
+Fig.~\ref{fig:HfZrO2_Id(Vd)},~\ref{fig:HfZrO2_Id(Vbg)},~\ref{fig:HfZrO2_Id(Vtg)_varying_Vds},~\ref{fig:HfZrO2_Id(Vtg)} and~\ref{fig:HfZrO2_Id(Vds)_varying_Vtg} show the same studies of the previous model. A comparison with Fig.~\ref{fig:Id(Vd)_HfO2_MoS2},~\ref{fig:Id(Vbg)_HfO2_MoS2} and~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vbg} proves more available current when the device is in the on state compared to the previous case.
+
+Fig.~\ref{fig:HfZrO2_Id(Vtg)_varying_Vds} shows a worse $I_{on}/I_{off}$ ratio than Fig.~\ref{fig:Id(Vtg)_HfO2_MoS2_varying_Vds}. With a ferroelectric material we have an $I_{on}/I_{off}$ ratio of $10^5$ for $V_{ds}=\SI{500}{\milli \volt}$ and about $10^3$ for $V_{ds}=\SI{10}{\milli \volt}$ while in~\cite{Radisavljevic:Si_MoS2} for $V_{ds} = \SI{500}{\milli \volt}$, the $I_{on}/I_{off}$ ratio is $10^8$ and for $V_{ds} = \SI{10}{\milli \volt}$, the $I_{on}/I_{off}$ ratio is $10^6$.
+
+In Fig.~\ref{fig:HfZrO2_Id(Vtg)} is shown the $I_d$-$V_{tg}$ curve with $V_{bg}=\SI{0}{\volt}$ and $V_{ds} = \SI{10}{\milli \volt}$.
+Fig.~\ref{fig:HfZrO2_Id(Vds)_varying_Vtg} indicates that for $V_{tg} = \SI{-2.5}{\volt}$ the device in still on, while in the same conditions the device is completely turned off in Fig.~\ref{fig:Id(Vds)_HfO2_MoS2_varying_Vtg}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vd).eps} 
+	\caption{$I_d(V_{d})$}
+	\label{fig:HfZrO2_Id(Vd)}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vbg).eps} 
+	\caption{$I_d(V_{bg})$}
+	\label{fig:HfZrO2_Id(Vbg)}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vtg)_varying_Vds.eps} 
+	\caption{$I_d(V_{tg})$ varying $V_{ds}$}
+	\label{fig:HfZrO2_Id(Vtg)_varying_Vds}
+\end{figure} 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vtg).eps} 
+	\caption{$I_d(V_{tg})$}
+	\label{fig:HfZrO2_Id(Vtg)}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{Grafici/HfZrO2_Id(Vds)_varying_Vtg.eps} 
+	\caption{$I_d(V_{ds})$ varying $V_{tg}$}
+	\label{fig:HfZrO2_Id(Vds)_varying_Vtg}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Materials and Methods}
+
+The first step through implementing the model in COMSOL Multiphysics was defining the geometry: setting all the sizes and the distances between the materials. Later we specified which materials to associate with the different spatial regions and, for each one of them, we assigned all the physical variables necessary for the equations. We used a table of parameters for the materials defined in~\cite{Howell:MonolayerMultiLayer_MoS2}.
+
+The next step was defining the physics. We used the semiconductor physic that implement the Poisson equation $\nabla \cdot (-\varepsilon_0 \varepsilon_r \nabla V) = \rho$. This physic allows us to specify the MoS$_2$ characteristics and to define the contacts of source, drain and gates. We defined the charge conservation and its equation $\vec{D} = \varepsilon_0 \varepsilon_r \vec{E}$ in the whole model except for the 2D material. The MoS$_2$ is treated like a semiconductor material model so we needed to specify the relative permittivity, the band gand, the electron affinity, the effective density of states in valence and conduction band and the electron and hole mobility in the material properties. Using analytic doping model we could set the donor concentration in the MoS$_2$ layer. The donor concentration is a parameter and it's varied in our studies according to the plot shown in~\cite{Howell:MonolayerMultiLayer_MoS2}. We used a trap assisted recombination to set the electron and hole lifetime according to Tab.~\ref{table:MoS2}. 
+
+The mesh generated automatically was acceptable and precise enough. At last we created the studies that generated the plots in this report, trying to imitate the simulated ones found in~\cite{Howell:MonolayerMultiLayer_MoS2}. 
+
+The parameters used in COMSOL are shown in Tab.~\ref{table:MoS2}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+
+Our models seems to simulate quite correctly the technology, in facts the plots obtained are very similar with the ones found in literature.
+We can therefore say that they can be used for further experiments and expect that the results will be similar to the real ones.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\reftitle{References}
+
+\begin{thebibliography}{999}
+	% Reference 1
+	\bibitem[Author1(year)]{Howell:MonolayerMultiLayer_MoS2}
+	Sarah L. Howell, Deep Jariwala, Chung-Chiang Wu, Kan-Sheng Chen, Vinod K. Sangwan, Junmo Kang, Tobin J. Marks, Mark C. Hersam, and Lincoln J. Lauhon., Investigation of Band-Offsets at Monolayer–Multilayer MoS2 Junctions by Scanning Photocurrent Microscopy. {\em Nano Letters} {\bf 2015}, {\em 15}, 2278--2284.
+	% Reference 2
+	\bibitem[Author2(year)]{Radisavljevic:Si_MoS2}
+	Branimir Radisavljevic, Aleksandra Radenovic, Jacopo Brivio, V. Giacometti and Andras Kis., Single-layer MoS2 transistors. {\em Nature Nanotechnology}  {\bf 2011}, {\em 6}, 147--150.
+	% Reference 3
+	\bibitem[Author3(year)]{Wu:Ultrathin_MoS2}
+	Chung-Chiang Wu, Deep Jariwala, Vinod K. Sangwan, Tobin J. Marks, Mark C. Hersam, and Lincoln J. Lauhon, Elucidating the Photoresponse of Ultrathin MoS2 Field-Effect Transistors by Scanning Photocurrent Microscopy. {\em The Journal of Physical Chemistry Letters}  {\bf 2013}, {\em 4}, 2508--2513.
+	% Reference 4
+	\bibitem[Author4(year)]{Dragoman:ferroelectric}
+	Mircea Dragoman, Martino Aldrigo, Mircea Modreanu and Daniela Dragoman, Extraordinary tunability of high-frequency devices using Hf0.3Zr0.7O2 ferroelectric at very low applied voltages. {\em Applied Physics Letters}  {\bf 2017}, {\em 110}, 103--104.
+\end{thebibliography}
+
+\end{document}
+
